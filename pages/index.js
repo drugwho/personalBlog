@@ -48,7 +48,7 @@ export default function Index() {
           <br />
           <Text color={colorSecondary[colorMode]}>
             I am currently a software intern at 🛵{" "}
-            <a href="https://www.atherenergy.com" target="_blank">
+            <a href="https://www.atherenergy.com" target="_blank" style={{textDecoration: "underline"}}>
               Ather Energy
             </a>
             , solving problems and developing solutions and products in the EV
@@ -59,6 +59,10 @@ export default function Index() {
             I am proficient in JavaScript and Python, and have experience in
             product development using application frameworks in production. I am
             currently learning Kotlin and Haskell.
+          </Text>
+          <br />
+          <Text color={colorSecondary[colorMode]}>
+            In my free time I play the 🎸 for my band <a href="https://www.instagram.com/oceanswithinband" target="_blank" style={{textDecoration: "underline"}}>Oceans Within</a>. I also enjoy long drives and 🍕. 
           </Text>
           <br />
           <Text color={colorSecondary1[colorMode]}>
