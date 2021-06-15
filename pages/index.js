@@ -9,6 +9,10 @@ export default function Index() {
     light: "gray.700",
     dark: "gray.400",
   };
+  const colorSecondary1 = {
+    light: "gray.400",
+    dark: "gray.100",
+  };
   return (
     <Container>
       <Head>
@@ -55,6 +59,10 @@ export default function Index() {
             I am proficient in JavaScript and Python, and have experience in
             product development using application frameworks in production. I am
             currently learning Kotlin and Haskell.
+          </Text>
+          <br />
+          <Text color={colorSecondary1[colorMode]}>
+            <i>This webiste is under construction.</i>
           </Text>
         </Flex>
         {/* <footer
