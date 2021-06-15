@@ -66,7 +66,7 @@ export default function Index() {
           </Text>
           <br />
           <Text color={colorSecondary1[colorMode]}>
-            <i>This webiste is under construction.</i>
+            <i>This website is under construction.</i>
           </Text>
         </Flex>
         {/* <footer
