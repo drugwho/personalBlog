@@ -10,8 +10,8 @@ export default function Index() {
     dark: "gray.400",
   };
   const colorSecondary1 = {
-    light: "gray.400",
-    dark: "gray.100",
+    light: "green.500",
+    dark: "green.600",
   };
   return (
     <Container>
@@ -37,28 +37,26 @@ export default function Index() {
             Hi, I'm Raghu Ganapathy
           </Heading>
           <Text color={colorSecondary[colorMode]}>
-            Artist. Designer. Coder. ⚡
+          <span color={colorSecondary1[colorMode]}>Developer. Designer. Musician. </span>⚡
           </Text>
           <br />
           <Text color={colorSecondary[colorMode]}>
-            Hey! Welcome to my website. I am a driven individual who thrives on
-            staying up to date by learning all the latest technologies, and
-            implementing my knowledge to solve real world problems.
+            Hey! Welcome to my website. I am a driven individual who is passionate about developing software to efficiently solve real-world problems. 
           </Text>
           <br />
           <Text color={colorSecondary[colorMode]}>
-            I am currently a software intern at 🛵{" "}
-            <a href="https://www.atherenergy.com" target="_blank" style={{textDecoration: "underline"}}>
-              Ather Energy
+            I am currently a student at 👨‍🎓{" "}
+            <a href="https://www1.cs.ucr.edu/graduate/programs/computer-science-masters" target="_blank" style={{textDecoration: "underline"}}>
+              The University Of California, Riverside
             </a>
-            , solving problems and developing solutions and products in the EV
-            space.
+            , pursuing a full-time Masters' In Computer Science degree.
           </Text>
           <br />
           <Text color={colorSecondary[colorMode]}>
             I am proficient in JavaScript and Python, and have experience in
-            product development using application frameworks in production. I am
-            currently learning Kotlin and Haskell.
+            product development using application frameworks in production. I have previously worked as Software Developer at <a href="https://www.atherenergy.com/" target="_blank" style={{textDecoration: "underline"}}>
+              Ather Energy
+            </a>, building bleeding-edge solutions for problems in the <span>EV mobility space.</span>
           </Text>
           <br />
           <Text color={colorSecondary[colorMode]}>
@@ -66,7 +64,7 @@ export default function Index() {
           </Text>
           <br />
           <Text color={colorSecondary1[colorMode]}>
-            <i>This website is under construction.</i>
+            <a onClick={()=>{window.open(`mailto:raghu.1999@gmail.com?subject=+Hey!`, '_blank');}} style={{textDecoration: "underline", cursor:"pointer"}} >Contact me to work for you!</a>
           </Text>
         </Flex>
         {/* <footer
